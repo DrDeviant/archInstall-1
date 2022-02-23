@@ -1,5 +1,5 @@
 cd ~
 git init
-git remote add origin https://github.com/inalone/dotfiles.git
+git remote add origin git@github.com:inalone/archInstall.git
 git fetch
 git checkout -f main
