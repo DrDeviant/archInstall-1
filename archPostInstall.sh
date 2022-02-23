@@ -1,5 +1,3 @@
-pacman -S grub efibootmgr intel-ucode networkmanager pipewire pipewire-pulse pipewire-alsa pipewire-media-session git firefox bitwarden xdg-desktop-portal obs-studio fish
-
 systemctl enable NetworkManager
 
 ln -sf /usr/share/zoneinfo/Europe/London /etc/localtime
