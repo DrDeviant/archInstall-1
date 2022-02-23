@@ -5,7 +5,7 @@ mount /dev/sdb2 /mnt
 mkdir /mnt/boot
 mount /dev/sdb1 /mnt/boot
 
-pacstrap /mnt base base-devel linux linux-firmware git
+pacstrap /mnt base base-devel linux linux-firmware git grub efibootmgr intel-ucode networkmanager pipewire pipewire-pulse pipewire-alsa pipewire-media-session git firefox bitwarden xdg-desktop-portal obs-studio fish
 genfstab -U /mnt >> /mnt/etc/fstab
 
 cp -r archinstall /mnt/home/
